@@ -7,7 +7,13 @@ import {COLORS} from './styles/constants';
 
 export default function App() {
   return (
-    <View style={{padding:24,paddingTop: 55, backgroundColor: COLORS.BLACK, paddingBottom:75}}>
+    <View
+      style={{
+        padding: 24,
+        paddingTop: 55,
+        backgroundColor: COLORS.BLACK,
+        paddingBottom: 75,
+      }}>
       <Header />
       <Categories />
       <Popular />
